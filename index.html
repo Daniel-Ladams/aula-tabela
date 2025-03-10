@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+<style>
+    th, td {border:1px solid black}
+tfoot{background-color: blue;}
+</style>
+</head>
+<body>
+    <h1>Tabela sem colspan</h1>
+    <table>
+
+
+
+        <thead>
+            <tr>
+                <th>Poduto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+                <th>Black Fraday</th>
+            </tr>
+        </thead>
+    
+    <tbody>
+        <tr>
+            <td>Produto 1</td>
+            <td>500</td>
+            <td>10</td>
+            <td>Sim</td>
+        </tr>
+        <tr>
+            <td>Produto 2</td>
+            <td>50</td>
+            <td>100</td>
+            <td>Sim</td>
+        </tr>
+        <tr>
+            <td>Produto 3</td>
+            <td>500</td>
+            <td>1000</td>
+            <td>Não</td>
+        </tr>
+    </tbody>
+    
+    </table>
+
+<h1>Tabala com colspan</h1>
+
+
+    <table>
+
+
+
+        <thead>
+            <tr>
+                <th>Poduto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+                <th>Black Fraday</th>
+            </tr>
+        </thead>
+    
+    <tbody>
+        <tr>
+            <td>Produto 1</td>
+            <td>5</td>
+            <td>10</td>
+            <td>Sim</td>
+        </tr>
+        <tr>
+            <td>Produto 2</td>
+            <td>50</td>
+            <td>100</td>
+            <td>Sim</td>
+        </tr>
+        <tr>
+            <td>Produto 3</td>
+            <td>500</td>
+            <td>1000</td>
+            <td>Não</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">Total:</td>
+            <td colspan="2">30 reais</td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+</html>
